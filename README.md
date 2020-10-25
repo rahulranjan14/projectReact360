@@ -26,8 +26,8 @@
 
 6. if there is an error like 
 
-> Invalid regular expression: /(node_modules[\\\]react[\\\]dist[\\\].*|website\\node_modules\\.*|heapCapture\\bundle\.js|.*\\__tests__\\.*)$/: Unterminated character 
-class
+<pre> Invalid regular expression: /(node_modules[\\\]react[\\\]dist[\\\].*|website\\node_modules\\.*|heapCapture\\bundle\.js|.*\\__tests__\\.*)$/: Unterminated character 
+class </pre>
 
 then, navigate to /node_modules/metro-bundler/src/blacklist.js
 

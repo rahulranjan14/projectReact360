@@ -33,21 +33,10 @@ then, navigate to /node_modules/metro-bundler/src/blacklist.js
 
 replace this :
 
-> var sharedBlacklist = [
-  /node_modules[/\\]react[/\\]dist[/\\].*/,
-  /website\/node_modules\/.*/,
-  /heapCapture\/bundle\.js/,
-  /.*\/__tests__\/.*/
-];
 
 with this :
 
-> var sharedBlacklist = [
-  /node_modules[\/\\]react[\/\\]dist[\/\\].*/,
-  /website\/node_modules\/.*/,
-  /heapCapture\/bundle\.js/,
-  /.*\/__tests__\/.*/
-];
+
 
 7. now run
 
